@@ -1,0 +1,471 @@
+// Fonts
+@mixin sans {font-family:	"adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+@mixin logo {font-family: "fatfrank", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+@mixin iconfont {font-family: "FontAwesome";
+  -webkit-font-smoothing: antialiased;
+}
+
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url('../fonts/fontawesome/fontawesome-webfont.eot?v=4.0.3');
+  src: url('../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('../fonts/fontawesome/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('../fonts/fontawesome/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('../fonts/fontawesome/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  color: red;
+  line-height: 1;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 4rem;
+  min-height: 100%;
+  @include sans;
+  font-size: 16px;
+	font-weight: 400;
+	color: $DarkGrey;
+	a {
+    outline : none;
+	}
+}
+
+article {
+  p a {
+	text-decoration: none;
+	color: $LinkColor;
+	}
+
+ul {
+  color: $DarkGrey;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  list-style: disc;
+  margin-left: 2em;
+  a {
+    text-decoration: none;
+	  color: $DarkGrey;
+  }
+  code {
+    font-family: monospace;
+    font-weight: 700;
+    color: Black;
+  }
+}
+
+
+li {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+
+}
+
+// Typography
+
+
+p {
+  line-height: 1.6em;
+  padding-bottom: .5em;
+  padding-top: .4em;
+	a {
+	text-decoration: none;
+	color: $LinkColor;
+	}
+	ul {
+  color: $DarkGrey;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  list-style: disc;
+  margin-left: 2em;
+  a {
+    text-decoration: none;
+	  color: $DarkGrey;
+  }
+  code {
+    font-family: monospace;
+    font-weight: 700;
+    color: Black;
+  }
+}
+
+
+li {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+}
+
+
+
+hr {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  border: 0;
+  height: 0;
+  border-top: 1px solid $DarkGrey;
+}
+
+h1 {
+  font-weight: 800;
+	line-height: normal;
+  font-size: 1.4em;
+  margin-top: 1em;
+  margin-bottom: .5em;
+	a {
+		text-decoration: none;
+		border-bottom: none;
+		}
+}
+
+
+h2 {
+  font-weight: 700;
+	line-height: normal;
+  font-size: 1.4em;
+  color: $DarkGrey;
+  	a {
+		text-decoration: none;
+		border-bottom: none;
+		  color: $DarkGrey;
+		}
+}
+
+h2.page {
+  color: $DarkGrey;
+  	a {
+		text-decoration: none;
+		border-bottom: none;
+		}
+}
+
+
+
+h3 {
+	font-size: 1em;
+	line-height: normal;
+	font-weight: 700;
+	margin-bottom: 1em;
+	margin-top: .5em;
+	a {
+		text-decoration: none;
+		border-bottom: none;
+		color: $LinkColor;
+	}
+}
+
+h4 {
+  font-weight: 800;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  color: $MiddleGrey;
+  margin-top: 1.5em;
+  margin-bottom: .8em;
+  a {
+    text-decoration: none;
+    color: $LinkColor;
+    border-bottom: none;
+    }
+}
+
+h5 {
+  font-weight: 800;
+  font-size: 1em;
+  line-height: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  margin-bottom: 1em;
+  color: $MiddleGrey;
+  a {
+    text-decoration: none;
+    color: $LinkColor;
+    border-bottom: none;
+    }
+}
+
+h6 {
+  font-weight: 800;
+  font-size: 1em;
+  line-height: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  color: $MiddleGrey;
+  a {
+    text-decoration: none;
+    color: $LinkColor;
+    border-bottom: none;
+    }
+}
+
+.related-header {
+  font-size: 1.3em;
+  margin-top: 2em;
+}
+
+.related-list {
+  padding: 0;
+
+  list-style-type: none;
+  padding-left: 1em;
+  font-weight: 600;
+  border-left: 4px solid $DarkGrey;
+  a {
+    text-decoration: none;
+    color: $DarkGrey;
+  }
+}
+
+.byline {
+  font-size: 1.1em;
+  color: $MiddleGrey;
+  text-transform: none;
+  font-weight: 500;
+  letter-spacing: normal;
+}
+
+
+
+.link-icon {
+	font-size: .8em;
+	padding-left: .5em;
+	color: $MiddleGrey;
+	a{
+		text-decoration: none;
+		color: $MiddleGrey;
+		border-bottom: none;
+	}
+}
+
+.permalink-icon {
+	font-size: inherit;
+	padding-left: 1em;
+	margin-top: -1em;
+	a {
+		text-decoration: none;
+		border-bottom: none;
+		color: $Orange;
+  }
+}
+
+.header {
+	font-weight: 300;
+	font-size: 1.2em;
+	a {
+		text-decoration: none;
+		border-bottom: none;
+		color: $DarkGrey;
+}
+}
+
+.page {
+	font-weight: 800;
+	font-size: 2.2em;
+	color: $Orange;
+	a {
+		text-decoration: none;
+		border-bottom: none;
+  }
+}
+
+
+
+.link-post-title {
+	font-size: .9em;
+	font-weight: 500;
+	padding-bottom: .3em;
+
+	a {
+		color: $MiddleGrey;
+		text-decoration: none;
+		border-bottom: 1pt solid $LightGrey;
+    line-height: normal;
+	}
+}
+
+.post-title {
+	font-size: 2.2em;
+	margin-bottom: 1em;
+	font-weight: 800;
+	a {
+		color: $DarkRed;
+		text-decoration: none;
+		letter-spacing: .02em;
+		border-bottom: none;
+	}
+}
+
+.link-excerpt {
+	line-height: 1.4em;
+	a {
+	text-decoration: none;
+	color: $LinkColor;
+	border-bottom: none;
+	}
+	ul {
+  color: $DarkGrey;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  list-style: disc;
+  margin-left: 2em;
+  a {
+    text-decoration: none;
+	  color: $LinkColor;
+  }
+  code {
+    font-family: monospace;
+    font-weight: 700;
+    color: Black;
+  }
+}
+
+
+li {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+}
+
+.footnotes {
+  a {
+    color: $LinkColor;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: none;
+  }
+}
+
+sup {
+  color: $MiddleGrey;
+  a {
+    color: $MiddleGrey;
+    background: $LightRed;
+    padding: 2pt 6pt 2pt 6pt;
+    margin-left: 2pt;
+    margin-right: 1pt;
+    font-weight: 700;
+    font-size: .9em;
+    text-decoration: none;
+    border-radius: 4pt;
+  }
+}
+
+.list-horizontal {
+  color: $Orange;
+  @include sans;
+  text-transform: uppercase;
+  list-style: none;
+  margin-left: 0 !important;
+  margin-top: 0;
+  margin-bottom: 0em;
+  font-size: .95em;
+  span {
+    color: white;
+    background: $Orange;
+    padding: 3pt 6pt 3pt 6pt;
+    font-weight: 800;
+  letter-spacing: .03em;
+    font-size: .85em;
+    text-decoration: none;
+    border-radius: 4pt;
+    vertical-align: middle;
+  }
+  li {
+    display:inline;
+    line-height: 2em;
+    padding-right: .3em;
+    white-space:pre;
+  }
+}
+
+.link-post {
+  padding-bottom: 2.5em;
+}
+
+
+.list-horizontal-alt {
+  a {
+  text-transform: uppercase;
+  list-style: none;
+  font-weight: 800;
+  color: $DarkGrey;
+  background: $LightGrey;
+  padding: 3pt 6pt 3pt 6pt;
+  font-size: .85em;
+  text-decoration: none;
+  border-radius: 4pt;
+  margin-right: .3em;
+}
+  li {
+    display:inline;
+    line-height: 2em;
+    padding-right: .3em;
+    white-space:pre;
+  }
+}
+
+
+.excerpt {
+	line-height: 1.9em;
+	padding-bottom: 6em;
+	a {
+	text-decoration: none;
+	color: $Orange;
+	}
+}
+
+.date {
+	font-size: 1em;
+	font-weight: 800;
+  max-width: 300pt;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+	color: $DarkGrey;
+	margin-top: 1em;
+	margin-bottom: 1.4em;
+  text-transform:uppercase;
+	letter-spacing: .05em;
+}
+
+.recent-date {
+	color: $MiddleGrey;
+	font-size: 1em;
+	float: right;
+}
+
+blockquote {
+	color: $MiddleGrey;
+	margin-top: .8em;
+  margin-bottom: .8em;
+  margin-left: 0;
+  padding-left: 1.5em;
+  border-left: 2px solid $Orange;
+  p {
+  display: inline;
+  }
+}
+
+.download-button{
+  font-size: .8em;
+  padding-top: .6em;
+}
+
+
+footer {
+  h1 {
+    font-size: 1.4em;
+    color: red;
+  }
+}
