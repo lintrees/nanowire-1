@@ -1,12 +1,12 @@
 ---
-time: 1456810290
+time: 1456810329
 inventory:
   "/this-week/index.html":
-    md5: 5ad1d3df2e07efad8831a048db42fca2
-    time: 1456810283
+    md5: 9e40cdef42971c2033bfc1b065175680
+    time: 1456810327
   "/index.html":
-    md5: 5ad1d3df2e07efad8831a048db42fca2
-    time: 1456810283
+    md5: 9e40cdef42971c2033bfc1b065175680
+    time: 1456810327
   "/this-week/coming-soon/index.html":
     md5: 11a6d5fd9324a17f393186b82d7bb1ef
     time: 1456810283
@@ -16,9 +16,9 @@ inventory:
   "/this-week/tags/index.html":
     md5: cb6a151355ad2c255c5181e274ac7e87
     time: 1456810283
-  "/this-week/tags/nanowire/index.html":
-    md5: 28cbbb4e4b0ab0a19e309fa7c7ab33d8
-    time: 1456810283
+  "/this-week/tags/news/index.html":
+    md5: fef4bf9a9899a28beb179abd9784e7a5
+    time: 1456810327
   "/past/index.html":
     md5: 65e908b9ce72acd26abd1eef8c3dd7fe
     time: 1456810283
@@ -26,11 +26,11 @@ inventory:
     md5: a271d504ef10842c9468f64c8c09f4d9
     time: 1456810169
   "/sitemap.xml":
-    md5: 5612242d2f311da851e6222217a1f6cc
-    time: 1456810169
+    md5: 008c7bcc55c20ca119c7656328c9dc32
+    time: 1456810327
   "/feed.xml":
-    md5: ca233fb1b738534adb49a2410bd3aebe
-    time: 1456810283
+    md5: 92559dd6fe5fba97e218e510a67839d0
+    time: 1456810327
   "/_gitignore":
     md5: 7d56b82ed9ed278b3f61ee79171ba023
     time: 1456810283
@@ -152,8 +152,8 @@ inventory:
     md5: d41d8cd98f00b204e9800998ecf8427e
     time: 1456810285
   "/xml/feed.xml":
-    md5: 3418c95c673b233b89958cf41eaf4da1
-    time: 1456810285
+    md5: 92559dd6fe5fba97e218e510a67839d0
+    time: 1456810327
   "/xml/sitemap.xml":
-    md5: a80982ef4a0d26f0428d3de90c1a28b0
-    time: 1456810285
+    md5: 2b106bb23d90a560135f882bb17b7e59
+    time: 1456810327
