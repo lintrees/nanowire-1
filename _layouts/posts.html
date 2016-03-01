@@ -1,6 +1,6 @@
 <div id="contain">
 
-  <div class="date"><time datetime="{{ site.date | date_to_xmlschema }}" itemprop="datePublished">{{ site.date | date: "%B %d, %Y" }}</time></div>
+  <div class="date">Posted <time datetime="{{ site.date | date_to_xmlschema }}" itemprop="datePublished">{{ site.date | date: "%A, %B %d, %Y" }}</time></div>
 
 
 {% assign sorted_posts = site.posts | sort:"meta.num" %}
