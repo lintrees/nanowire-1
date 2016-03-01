@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Nanowire</title>
+    <link>http://nanowire.news</link>
+    <pubDate>Mon, 29 Feb 2016 21:29:29 -0800</pubDate>
+    
+    <item>
+      <title>Coming Soon</title>
+      <link>http://nanowire.news/this-week/coming-soon</link>
+      <pubDate>Mon, 29 Feb 2016 21:26:00 -0800</pubDate>
+      <author>Kyle Roderick</author>
+      <guid>http://nanowire.news/this-week/coming-soon</guid>
+      <description>&lt;p&gt;Nanowire News will be a list of curated links from the world of science posted every Friday. Stay tuned!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
